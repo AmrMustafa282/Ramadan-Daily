@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+* {
+ font-family: "Readex Pro", sans-serif;
+ font-optical-sizing: auto;
+ font-weight: 500;
+ font-style: normal;
+ font-variation-settings: "HEXP" 0;
+ direction: rtl;
+ font-size: 14px;
+}
+
+.hFont {
+ font-family: "Noto Sans Arabic", sans-serif;
+ font-optical-sizing: auto;
+ font-weight: 600;
+ font-style: normal;
+ font-variation-settings: "wdth" 100;
+}
+
+table {
+ border-collapse: collapse; /* Collapse borders into a single border */
+}
+
+td,
+tr,
+th {
+ border: 1px solid black; /* Add a solid black border to all table cells */
+}
+.blueG {
+  background: linear-gradient(to left, #2b5573, #4b7b9d, #6a9fc8, #8ac4f3);
+}
+
+.greenG {
+  background: linear-gradient(to left, #6c893b, #90a961, #b5db6a, #d1f98c);
+}
+
+.pinkG {
+  background: linear-gradient(to left, #a1405a, #cc5d79, #ef718d, #ff91a5);
+}
+
+.orangG {
+  background: linear-gradient(to left, #e58b58, #f4a67a, #ffb284, #ffcd96);
+}
+.darkBlueG {
+  background: linear-gradient(to left, #212531, #223044, #24355e, #26597a);
+}
+
+.blueG ,.greenG , .pinkG ,.orangG ,.darkBlueG{
+  color: white;
+}
