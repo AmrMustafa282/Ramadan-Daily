@@ -205,7 +205,7 @@ const DataTable = ({ data, handleCheckboxChange, handleTextChange }) => {
           onChange={(e) => {
            handleTextChange(index, "quran", key, e.target.value);
           }}
-          className="rounded-full border-black border-[1px] px-2 w-32"
+          className="rounded-full border-black border-[1px] px-2 w-32 text-center"
          />
         </td>
        ))}
