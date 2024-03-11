@@ -107,7 +107,7 @@ const DataTable = ({ data, handleCheckboxChange, handleTextChange }) => {
        <span>قيام </span>
        <span>الليل</span>
        <br />
-       <span className="font-normal whitespace-nowrap">(تراويح-تجهد)</span>
+       <span className="font-normal whitespace-nowrap">(تراويح-تهجد)</span>
       </th>
      </tr>
     </thead>
