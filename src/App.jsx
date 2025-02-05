@@ -14,7 +14,6 @@ function App() {
    },
    elNwafel: {
     sunnan: false,
-    shuruq: false,
     duha: false,
     quanEllil: false,
    },

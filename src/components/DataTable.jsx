@@ -101,7 +101,6 @@ const DataTable = ({ data, handleCheckboxChange, handleTextChange }) => {
        <br />
        <span className="font-normal whitespace-nowrap">(12 ركعة)</span>
       </th>
-      <th rowSpan={1}>الشروق</th>
       <th rowSpan={1}>الضحى</th>
       <th rowSpan={1}>
        <span>قيام </span>
